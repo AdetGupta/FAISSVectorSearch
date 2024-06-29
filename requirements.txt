@@ -1,0 +1,4 @@
+Flask==3.0.3
+faiss-cpu== 1.8.0
+sentence-transformers==3.0.1
+langchain_community==0.2.6
