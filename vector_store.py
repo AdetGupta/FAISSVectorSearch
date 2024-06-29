@@ -1,7 +1,6 @@
 from langchain_community.document_loaders import UnstructuredURLLoader
 import faiss
 from sentence_transformers import SentenceTransformer
-import json
 
 urls = ["https://brainlox.com/courses/category/technical"]
 loader = UnstructuredURLLoader(urls=urls)
